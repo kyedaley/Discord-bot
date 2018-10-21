@@ -1,4 +1,5 @@
-import discord
+
+import discord
 from discord.ext import commands
 from discord.ext.commands import bot
 import asyncio
@@ -142,5 +143,5 @@ async def serverinfo(ctx, user: discord.Member):
 
 
 client.loop.create_task(change_status())
-client.run()
+client.run('NTAyOTMyMDM3ODU5MTQ3Nzg2.Dq3ImA.q7hRuNb9f2E642zvayjdfzOYtDI')
 
